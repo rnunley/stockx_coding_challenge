@@ -13,7 +13,9 @@ and Sinon for mocking.
     
 2) Update database details in index.js to match your configuration. 
 
-3) run npm start at the command prompt or terminal. 
+3) Run npm install at the command prompt or terminal.
+
+4) run npm start at the command prompt or terminal. 
 
 
 ## Usage 
