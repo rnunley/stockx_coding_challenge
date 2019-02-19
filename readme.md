@@ -1,7 +1,7 @@
 ##True to Size Demo
 
 #### Quick aside. 
-I would have used Docker Compose fort this project, however it 
+I would have used Docker Compose for this project, however it 
 requires Windows Pro and I have Home available to me at the moment.
 Further, in a production service I would include unit tests with Jest 
 and Sinon for mocking.
