@@ -3,7 +3,7 @@ const DB = require('./db');
 
 // Update these for your setup.
 const dbUserName = 'stockx_rwn_service';
-const dbUserPassword = 'password123';
+const dbUserPassword = 'c8251435-ac13-41db-8095-ba0ec45f7d1e';
 const dbURL = 'localhost';
 const dbName = 'postgres';
 const dbPort = 5432;

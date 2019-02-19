@@ -1,5 +1,5 @@
 CREATE USER stockx_rwn_service;
-ALTER USER stockx_rwn_service WITH ENCRYPTED PASSWORD 'password123';
+ALTER USER stockx_rwn_service WITH ENCRYPTED PASSWORD 'c8251435-ac13-41db-8095-ba0ec45f7d1e';
 GRANT CONNECT ON DATABASE postgres TO stockx_rwn_service;
 
 CREATE SCHEMA stockx_rwn;

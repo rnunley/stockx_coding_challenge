@@ -28,7 +28,14 @@ class TrueToSizeController {
         }
 
         try {
-            res.send(await this._db.getAverageTrueFitForMakeAndModel(make, model));
+            const result = await this._db.getAverageTrueFitForMakeAndModel(make, model);
+
+            if (result.true_to_size === null) {
+                res.status(404);
+                res.send("Did not find a True to Size value for given make and model!");
+            } else {
+                res.send(await this._db.getAverageTrueFitForMakeAndModel(make, model));
+            }
         } catch (e) {
             res.status(500);
             res.send("An internal server error occurred!");
