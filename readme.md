@@ -1,6 +1,6 @@
 ##True to Size Demo
 
-#### Quick aside. 
+#### Quick Aside
 I would have used Docker Compose for this project, however it 
 requires Windows Pro and I have Home available to me at the moment.
 Further, in a production service I would include unit tests with Jest 
@@ -15,7 +15,7 @@ and Sinon for mocking.
 
 3) Run npm install at the command prompt or terminal.
 
-4) run npm start at the command prompt or terminal. 
+4) Run npm start at the command prompt or terminal. 
 
 
 ## Usage 
